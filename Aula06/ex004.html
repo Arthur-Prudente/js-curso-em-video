@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 004</title>
+</head>
+<body>
+    <script>
+        var nome = window.prompt("Qual é seu nome?")
+        document.write(`Olá, ${nome} | Seu nome tem ${nome.length} letras. <br/>`)
+        document.write(`Seu nome em MAIÚSCULO: ${nome.toUpperCase()}<br/><br/>`)
+
+        document.write(`Formatação de valores com ponto flutuante <br/>`)
+
+        var n1 = 1545.5
+        n1 = n1.toFixed(2) //Definir duas casas decimais
+        document.write(`${n1}<br/><br/>`)
+
+        var n2 = 1545.5
+        n2 = n2.toFixed(2).replace('.', ',') //Duas casas decimais com vírgula
+        document.write(`${n2}<br/><br/>`)
+
+        var n3 = 1545.5
+        n3 = n3.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) //Definição como moeda BRL
+        document.write(`${n3}<br/><br/>`)
+
+        var n4 = 1545.5
+        n4 = n4.toLocaleString('pt-BR', {style: 'currency', currency: 'USD'}) //Definição como moeda BRL
+        document.write(`${n4}<br/><br/>`)
+
+    </script>
+</body>
+</html>

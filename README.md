@@ -31,5 +31,24 @@
             -- TIPAGEM --
 
             -- number (Infinity e NaN) / string / boolean / null / undifined / object (Array) / function
+
+
+        -- Aula 06
+
+            -- TRATAMENTO DE DADOS --
+
+            -- (number + number) -> Adição
+            -- (string + string) -> Concatenação
+            -- Necessário realizar a conversão (Number.parseInt(n)...parseFloat(n)) -> Number(n) -> Modo simplificado
+
+            -- String(n) ou n.toString()
+
+            -- FORMATANDO STRINGS --
+
+            var s = 'JavaScript'
+            'Eu estou aprendendo s' -> Não faz interpolação
+            'Eu estou aprendendo' + s -> Usa concatenação
+            `Eu estou aprendendo ${s}` -> Usa template string 
+            (${} -> Placeholder)
 --> 
 
