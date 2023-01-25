@@ -64,6 +64,39 @@
             % -> Resto da divisão inteira
             ** -> Potência
 
-            --  
+            -- Atribuição
+
+            = -> Atribuição
+            ++x -> Pré-incremento
+            x++ -> Pós-incremento
+            --x -> Pré-decremento
+            x-- -> Pós-decremento
+
+        -- Aula 08
+
+            -- OPERADORES --    
+
+            -- Relacionais
+
+            > -> Maior
+            < -> Menor
+            >= -> Maior ou igual
+            <= -> Menor ou igual
+            == -> Igual -> Não testa o tipo da variável
+            === -> Identidade -> Testa o valor e o tipo da variável
+            != -> Diferente
+            !== -> Desigual restrito
+
+            -- Lógicos
+
+            ! -> Negação
+            && -> Conjunção (E Lógico)
+            || -> Disjunção (OU Lógico)
+
+            Precedência -> Operador Aritmético / Relacional / Lógico
+
+            -- Ternário
+
+            ? : -> teste ? true : false 
 --> 
 
