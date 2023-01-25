@@ -50,5 +50,20 @@
             'Eu estou aprendendo' + s -> Usa concatenação
             `Eu estou aprendendo ${s}` -> Usa template string 
             (${} -> Placeholder)
+
+        -- Aula 07
+
+            -- OPERADORES --
+
+            -- Aritméticos
+
+            + -> Adição
+            - -> Subtração
+            * -> Multiplicação
+            / -> Divisão real
+            % -> Resto da divisão inteira
+            ** -> Potência
+
+            --  
 --> 
 
