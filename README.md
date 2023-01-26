@@ -98,5 +98,29 @@
             -- Ternário
 
             ? : -> teste ? true : false 
+
+        -- Aula 10
+
+            -- DOM --
+
+            -- Document Object Model
+
+            -- Árvore DOM
+
+            -- window ->
+                        location
+                        history
+                        document ->
+                                html ->
+                                        head
+                                        body
+
+            -- Métodos de acesso
+
+            -- por marca -> getElementsByTagName()
+            -- por ID -> getElementsByID()
+            -- por nome -> getElementsByName()
+            -- por classe -> getElementsByClassName()
+            -- por seletor -> querySelector() / querySelectorAll() -> div#msg (tag + id) / div.msg (tag + classe)
 --> 
 
