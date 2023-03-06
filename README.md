@@ -122,5 +122,13 @@
             -- por nome -> getElementsByName()
             -- por classe -> getElementsByClassName()
             -- por seletor -> querySelector() / querySelectorAll() -> div#msg (tag + id) / div.msg (tag + classe)
+
+            -- Eventos DOM
+
+            Funções -> Ações realizadas com o evento disparado
+
+            function acao(){
+                
+            }
 --> 
 
