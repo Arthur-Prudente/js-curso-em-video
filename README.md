@@ -135,6 +135,48 @@
 
             -- CONDIÇÕES -- 
             
-                        
+            if(){
+
+            }
+
+            if(){
+
+            }else{
+
+            }   
+
+            if(){
+
+            }elseif(){
+
+            }else{
+
+            }
+
+        -- Aula 15
+
+            -- ESTRUTURA DE REPETIÇÃO --
+
+            while(){
+
+            }   
+
+            do{
+
+            }while()
+
+            for(){
+
+            }   
+
+            for(  in  ){
+
+            }     
+
+        -- Aula 16
+
+            -- FUNÇÕES --
+
+              
 --> 
 
